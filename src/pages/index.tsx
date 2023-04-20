@@ -1,10 +1,10 @@
 // import {  } from "next/font/google";
 import Image from "next/image";
-import { Ass } from "./component/ass";
+import Ass from "./component/ass";
 import { useState } from "react";
 import { toJpeg } from "html-to-image";
 import { saveAs } from "file-saver";
-import { Input } from "./component/input";
+import Input from "./component/input";
 import { FiUsers, FiPhoneCall } from "react-icons/fi";
 
 // const inter = Inter({ subsets: ["latin"] });

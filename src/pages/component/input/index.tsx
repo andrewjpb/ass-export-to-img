@@ -8,7 +8,12 @@ interface inputProps {
   Icon: IconType;
 }
 
-export function Input({ placeholder, setValue, value, Icon }: inputProps) {
+export default function Input({
+  placeholder,
+  setValue,
+  value,
+  Icon,
+}: inputProps) {
   const [focus, setFocus] = useState(false);
   return (
     <div

@@ -8,7 +8,7 @@ interface assProps {
   ramal?: string;
 }
 
-export function Ass({ nome, ramal }: assProps) {
+export default function Ass({ nome, ramal }: assProps) {
   const downloadComponentAsJPG = async (elementId: any, fileName: any) => {
     const element = document.getElementById(elementId);
     if (!element) return;
